@@ -1,10 +1,8 @@
-Why does it do that?
-
-`INPUT_TEXT="Upon old trees with branches sere brocaded silk and gold appear"`
-
-`sbcl --noinform --load ?????.lisp --eval "(print-until-empty \"$INPUT_TEXT\" t)" --quit`
+Wherefore? 
 
 ```
+sbcl --noinform --load ?????.lisp
+* (print-until-empty "Upon old trees with branches sere brocaded silk and gold appear" t)
 Upon old trees with branches sere brocaded silk and gold appear
 popenlcl cdotwbsbsagadkd e   rheaeo essr da  eiitl errndnprha o
 oerpt  n aosirldpc  ldce  red eeook anwlbssbasrgde  adh rnheait
@@ -211,4 +209,6 @@ s                      o
  o                                                             
 o                                                              
                                                                
+NIL
+*
 ```
