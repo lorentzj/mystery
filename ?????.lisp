@@ -10,7 +10,7 @@
 			(remove-duplicates str :from-end t)))))
 
 (defun print-until-empty (s target)
-		(format target "~a~%" s)
-		(if (string= s (format nil "~v@{~A~:*~}" (length s) " "))
-			nil
-			(print-until-empty (????? s) target)))
+	(format target "~a~%" s)
+	(if (string= s (format nil "~v@{~A~:*~}" (length s) " "))
+		nil
+		(print-until-empty (????? s) target)))
